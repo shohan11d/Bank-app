@@ -4,13 +4,13 @@
 <p>Login with the username and password of the accounts</p>
 
 <h3>Account 1</h3>
-Username: ma
+Username: ma <br>
 password: 1111
 <h3>Account 2</h3>
-Username: mt
+Username: mt <br>
 password: 2222
 <h3>Account 3</h3>
-Username: rr
+Username: rr <br>
 password: 3333
 <h3>Account 4</h3>
 Username: dw
