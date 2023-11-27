@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank App</title>
+  <script type="module" crossorigin src="/assets/index-rdneIVtI.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-A9WIV2g_.css">
+</head>
+
+<body class="">
+    <!-- Navigation -->
+    <nav class="container mx-auto flex justify-center items-center flex-wrap g-8 mt-2 mb-5">
+        <h2 class="nav__text mr-4 text-lg font-bold ">Log in to get Started</h2>
+        <img class="nav__logo h-10 w-10" src="./logo.png" alt="" />
+        <form action="" class="nav__form">
+            <input type="text" placeholder="username" class="input__user mb-2 rounded-full pl-5 py-2 shadow-sm" />
+            <input type="password" placeholder="pin" class="input__pin mb-2  rounded-full pl-5 py-2 shadow-sm " />
+            <button class="submit nav__btn shadow-sm py-2 px-4 rounded-full bg-white">Submit</button>
+        </form>
+    </nav>
+    <!-- Main -->
+    <main class=" container mx-auto flex flex-col items-center ">
+        <!-- Display View -->
+        <div class="view overflow-scroll border bg-white  rounded-md h-96 ">
+            <div class="movements__row flex justify-between items-center p-5 border-b">
+                <span class="text-sm bg-green-600 text-white px-2 py-.5 rounded-full ">7 Deposit</span> <span
+                    class="amount">79.97 $</span>
+            </div>
+            <div class="movements__row flex justify-between items-center p-5 border-b">
+                <span class="text-sm bg-green-600 text-white px-2 py-.5 rounded-full ">7 Deposit</span> <span
+                    class="amount">79.97 $</span>
+            </div>
+            <div class="movements__row flex justify-between items-center p-5 border-b">
+                <span class="text-sm bg-green-600 text-white px-2 py-.5 rounded-full ">7 Deposit</span> <span
+                    class="amount">79.97 $</span>
+            </div>
+        </div>
+        <!-- Display Prices -->
+        <div class="prices flex justify-between p-2 items-center text-sm">
+            <p class="">In: <span class=" in text-green-500">27036.20$</span></p>
+            <p class="">Out: <span class="out text-red-500">27036.20$</span></p>
+            <p class=" ">Interest: <span class="interest text-green-500">27036.20$</span></p>
+            <button class="sort border-2  bg-white ">Sort</button>
+        </div>
+        <!-- Feature Transfer money -->
+        <div class=" rounded-2xl transfer flex justify-center items-center flex-wrap mb-4 ">
+            <h3 class="font-bold">Transfer money</h3>
+            <form action="">
+                <div class="my-2 px-5 flex flex-col">
+                    <input type="text " class="tt mb-2 rounded-md shadow-sm">
+                    <label for="" class="">Transfer to</label>
+                </div>
+                <div class="my-2 px-5 flex flex-col">
+                    <input type="number " class="reqloan mb-2 rounded-md shadow-sm">
+                    
+                    <label for="">Request loan</label>
+                </div>
+                <button class="submit transfer__submit  shadow-sm  my-2 px-4 ml-5 rounded bg-white">Submit</button>
+            </form>
+        </div>
+        <!-- Feature Loan  money -->
+        <div class=" rounded-2xl loan flex justify-center items-center flex-wrap mb-4">
+            <h3 class="font-bold">Request loan</h3>
+            <form action="">
+                <div class="my-2 px-5 flex flex-col">
+                    <input type="text " class="loanto mb-2 rounded-md shadow-sm">
+                    
+                    <label for="">Amount</label>
+                </div>
+                
+                <button class="loantoBtn submit  shadow-sm  my-2 px-4 ml-5 rounded bg-white">Submit</button>
+            </form>
+        </div>
+        <!-- Feature Delete account -->
+        <div class=" rounded-2xl close flex justify-center items-center flex-wrap mb-4 ">
+            <h3 class="font-bold">Close account</h3>
+            <form action="">
+                <div class="my-2 px-5 flex flex-col">
+                    <input type="text " class="closeuser mb-2 rounded-md shadow-sm">
+                    <label for="" class="">Confimr user</label>
+                </div>
+                <div class="my-2 px-5 flex flex-col">
+                    <input type="text " class="closepin mb-2 rounded-md shadow-sm">
+                    <label for="" class="">Confirm PIN</label>
+                </div>
+                <button class="submit closebtn  shadow-sm  my-2 px-4 ml-5 rounded bg-white">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

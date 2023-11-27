@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f3f3f3;
+}
+nav {
+  gap: 2rem;
+
+  justify-content: center;
+}
+
+.transfer {
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  padding: 0.3rem 0rem;
+}
+.loan {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  padding: 0.3rem 0;
+}
+.close {
+  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+  padding: 0.3rem 0;
+}
+
+input {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 2px solid rgba(0, 128, 0, 0.788);
+}
+
+
+main input {
+  padding: 0.3rem 0.6rem;
+}
+input:focus {
+  outline: none;
+}
+.view,
+.prices,
+.transfer,
+.loan,
+.close {
+  width: 50%;
+  min-width: 300px;
+}
+
+button:hover {
+  background-color: #333;
+  color: white;
+  transition: all 300ms ease-in;
+}
+
+main {
+  opacity: 0;
+}
+
+.deposit{
+  background-color: #39b385;
+}
+
+.withdrawal{
+background-color: #e52a5a;
+}
