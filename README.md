@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">Bank App </h1>
 Bank app made with mainly Vannila JS, Tailwind CSS, and Vite bundler. There are four Accounts. Accounts can be loaded with usernames and passwords below. Loan, money transfer, and Account deletion features are Implemented.
 
-## <a href="https://bankapp000.netlify.app/ target="_blank">Live-Demo</a>
+## <a href="https://bankapp000.netlify.app/" target="_blank">Live-Demo</a>
 
 <p>Login with the username and password of the accounts</p>
 
