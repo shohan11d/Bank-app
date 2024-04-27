@@ -21,7 +21,6 @@ npm run start
 ```
 ###  
 
-### <a href = "https://bankapp000.netlify.app/">LIVE DEMO</a>
-
+ 
  
  
