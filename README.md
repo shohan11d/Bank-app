@@ -1,19 +1,27 @@
-# Bank-app
-dfdf
-<a href="https://bankapp000.netlify.app/">Live-Demo</a>
+<h1 style="text-align: center;">Bank App </h1>
+Bank app made with mainly Vannila JS, Tailwind CSS, and Vite bundler. There are four Accounts. Accounts can be loaded with usernames and passwords below. Loan, money transfer, and Account deletion features are Implemented.
+
+## <a href="https://bankapp000.netlify.app/">Live-Demo</a>
 
 <p>Login with the username and password of the accounts</p>
 
-<h3>Account 1</h3>
-Username: ma ,
-password: 1111
-<h3>Account 2</h3>
-Username: mt ,
-password: 2222
-<h3>Account 3</h3>
-Username: rr ,
-password: 3333
-<h3>Account 4</h3>
-Username: dw ,
-password: 4444
+| Accounts  | Username | Password  |
+| --------- |:--:| -----:|
+| Account 1 | ma | 1111 |
+| Account 2 | mt | 2222 |
+| Account 3 | rr | 3333 |
+| Account 4 | dw | 4444 |
+
+## Installation (run or build with vite)
+```
+git clone https://github.com/shohan11d/guess-game.git
+cd guess-game
+npm i
+npm run start 
+```
+###  
+
+### <a href = "https://gamerolldice.netlify.app/">LIVE DEMO</a>
+
+ 
  
